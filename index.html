@@ -1,0 +1,46 @@
+ 
+<html>
+  <head>
+    <title>Reconocimiento de imagen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+     <h1>Identificador de Objetos</h1>
+     <p>Los unicos objetos que puede reconocer son:</p>
+     <p>osito</p>
+     <p>audifonos</p>
+      <br>
+     <h2>Vista de la Cámara</h2>
+      <div id="camera"></div>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <button onclick="take_snapshot();" class="btn btn-info">Capturar imagen</button>
+      <br><br>
+      <button onclick="check();" class="btn btn-success">Identificar imagen</button>
+      <br><br>
+
+      <span id="result_object_name"></span> 
+     <span id="result_object_accuracy"></span> 
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

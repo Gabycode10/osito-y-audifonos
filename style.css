@@ -1,0 +1,22 @@
+body{
+background-color: mediumorchid;
+}
+h1{
+font-size: 35px;
+color: black;
+}
+p{
+font-size: 25px;
+color: lime;
+
+}
+#camera{
+border: 10px ridge border white;
+width: 340px;
+height: 300px;
+}
+h2{
+font-size: 25px;
+color: deeppink;
+
+}
